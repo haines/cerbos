@@ -120,7 +120,7 @@ require (
 	atomicgo.dev/cursor v0.2.0 // indirect
 	atomicgo.dev/keyboard v0.2.9 // indirect
 	atomicgo.dev/schedule v0.1.0 // indirect
-	buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go v1.34.2-20240920164238-5a7b106cbb87.2 // indirect
+	buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go v1.35.1-20240920164238-5a7b106cbb87.1 // indirect
 	cloud.google.com/go v0.115.0 // indirect
 	cloud.google.com/go/auth v0.8.1 // indirect
 	cloud.google.com/go/auth/oauth2adapt v0.2.4 // indirect
@@ -290,3 +290,5 @@ require (
 )
 
 replace github.com/goccy/go-yaml => github.com/cerbos/go-yaml v0.0.0-20240722083326-97316216b038
+
+replace github.com/cerbos/cerbos-sdk-go => github.com/haines/cerbos-sdk-go v0.2.11-0.20241101155803-2ea28f35413a
